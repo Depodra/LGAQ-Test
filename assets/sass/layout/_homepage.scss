@@ -12,6 +12,11 @@ nav.navbar {
 		letter-spacing: normal;
 		text-align: left;
 		color: var(--white);
+		@include media-breakpoint-down(lg) {
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
 	}
 	ul.nav {
 
